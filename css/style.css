@@ -175,30 +175,26 @@ h10{
      margin-left: 40%;
       font-size:100%; }
 
-   @media (max-width: 820px) {
-     body {width: 100%;
-         margin: 0%; }
-         .cabecalho{
-           width: 100%;
-          }
-   .conteudo{
-        width: 100%;
-        display: flex;
-        flex-wrap:wrap;
-        
-      }
-      .cardbat{
-        width: 25%; }
-      .cardalerquina{
-          width: 25%; }
-       .mulher-maravilha{
-            width: 25%; }
-      .cardsuperman{
-              width: 25%; }
-      footer{
-        margin-top:100%;
-      }
-
-  
+      @media (max-width: 820px) {
+        body {
+            width: 100%;
+            margin: 0%;
+        }
+        .cabecalho {
+            width: 100%;
+        }
+        .conteudo {
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            height: 100%;
+        }
+        .conteudo>div {
+            width: 75%;
+            margin: 0 auto 50px;
+        }
+        footer {
+            display: flex;
+        }
     }
     
